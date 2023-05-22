@@ -10,6 +10,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
+    <>    <Head>
+    <title>Gabbildung </title> 
+    <meta name="keywords" content="GAB" />
+  </Head>
     <div>
 
       <h1 className={styles.title}>
@@ -23,5 +27,6 @@ export default function Home() {
       </Link>
 
     </div>
+    </>
   )
 }
