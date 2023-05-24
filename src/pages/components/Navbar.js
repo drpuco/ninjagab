@@ -7,9 +7,12 @@ export default function Navbar() {
      <div className='logo'>
         <Image src="/gablogo.png" width={128} height={77} />
      </div>
-     <Link href="/">Home</Link>
-     <Link href="/about">About</Link>
-     <Link href="/ninjas">Ninja Listings</Link>
+     <Link href="/">Die GAB Bildung</Link>
+     <Link href="/about">Ausbildung</Link>
+     <Link href="/ninjas">Projekte</Link>
+     <Link href="/components/Content">Kulturpunkt</Link>
+     <Link href="/about">Aktuelles</Link>
+     <Link href="/components/Kontakt">Kontakt</Link>
     </nav>
   )
 }

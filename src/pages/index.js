@@ -23,7 +23,7 @@ export default function Home() {
       </p>
       <p className={styles.text}>loremipsum</p>
       <Link href="/ninjas" className={styles.btn}>
-        See Ninjas listing
+        Alle Mitarbeiter
       </Link>
 
     </div>
