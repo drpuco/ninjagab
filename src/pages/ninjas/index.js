@@ -1,6 +1,5 @@
-import Head from "next/head"
 import styles from '../../styles/Ninjas.module.css'
-import Link from "next/link";
+import Link from "next/link"
 
 
 export const getStaticProps = async() => {
